@@ -25,3 +25,42 @@ button {
   background: white;
   border: 1px solid #eee;
 }
+
+
+
+/* Solution */
+
+/* 8px between edge of card and its content */
+.card {
+  padding: 8px;
+}
+
+/* 8px gap between each blue sections inside the card */
+.title,
+.button-container,
+.content,
+button {
+  margin: 8px;
+  padding: 8px;
+}
+
+
+.title {
+  /* title of the card uses 16px */
+  font-size: 16px;
+}
+
+.content {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin:auto;
+  padding: 8px 24px;
+}
